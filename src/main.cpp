@@ -35,7 +35,6 @@ void setup() {
 // and updates LED array accordingly.
 void loop() {
   unsigned long t = millis();
-
   UpdateGlitter(strip, t);
 
   rgb_color colors[ledCount];
@@ -44,5 +43,5 @@ void loop() {
                             (uint8_t)AnimatePulse(&strip[i].gStart, &strip[i].gEnd, t),
                             (uint8_t)AnimatePulse(&strip[i].bStart, &strip[i].bEnd, t)};
   }
-  ledStrip.write(colors, ledCount, 10);
+  ledStrip.write(colors, ledCount, 31);
 }

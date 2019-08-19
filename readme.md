@@ -4,10 +4,10 @@ GlitterDress is a test pattern for dresses filled with amorphous clouds of light
 
 ## Compiling:
 
-1. Install [PlatformIO for Atom](http://platformio.org/).
+1. Install [PlatformIO](https://docs.platformio.org/en/latest/installation.html).
 2. Download or git clone GlitterDress source code.
-3. Open the GlitterDress project.
-5. Build the project. $platformio run --target upload
+3. Open a terminal and navigate to the source code location.
+4. Build the project: `$platformio run --target upload`
 
 
 ## Hardware:

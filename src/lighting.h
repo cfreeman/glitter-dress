@@ -22,7 +22,7 @@
 #include <Arduino.h>
 #include <APA102.h>
 
-const uint16_t ledCount = 81;
+const uint16_t ledCount = 45;
 
 typedef struct {
   uint8_t intensity;
